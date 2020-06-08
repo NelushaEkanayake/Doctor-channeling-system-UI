@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/NelushaEkanayake/mini_project#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "lite-server": "^2.5.4"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "font-awesome-icons": "^1.6.0",
+    "jquery": "^3.5.1",
     "popper.js": "^1.12.9"
   }
 }
