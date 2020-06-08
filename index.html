@@ -405,7 +405,7 @@
 
 	<header class="jumbotron">
         <div class="overlay"></div>
-        <video autoplay="autoplay" playsinline="playsinline" loop="loop" > 
+        <video autoplay="autoplay" playsinline="playsinline" loop="loop" muted="muted"> 
         	<source src="vdo/org.mp4" type="video/mp4">
 
         </video>
@@ -522,11 +522,11 @@
                     <h5>Our Address</h5>
                     <address class="address">
 		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-		              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		              Clear Water Bay, Colombo<br>
+		              Sri Lanka<br>
+		              <i class="fa fa-phone fa-lg"></i>: +942 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i>: +942 8765 4321<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:ezdoc@gmail.com">ezdoc@gmail.com</a>
 		           </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
@@ -542,7 +542,7 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2020 eZ DOC</p>
                 </div>
            </div>
         </div>
@@ -586,21 +586,19 @@
 
 
     <script>
-var searchInput = 'search_input';
+        var searchInput = 'search_input';
  
-$(document).ready(function () {
- var autocomplete;
- autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
-  types: ['geocode'],
-  /*componentRestrictions: {
-   country: "USA"
-  }*/
- });
+        $(document).ready(function () {
+         var autocomplete;
+         autocomplete = new google.maps.places.Autocomplete((document.getElementById(searchInput)), {
+          types: ['geocode'],
   
- google.maps.event.addListener(autocomplete, 'place_changed', function () {
-  var near_place = autocomplete.getPlace();
- });
-});
-</script>
+         });
+  
+         google.maps.event.addListener(autocomplete, 'place_changed', function () {
+         var near_place = autocomplete.getPlace();
+        });
+        });
+    </script>
 </body>
 </html>
