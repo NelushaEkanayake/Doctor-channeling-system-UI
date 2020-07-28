@@ -22,7 +22,7 @@ body{
 	padding:20px 0px 20px 0px;
 }
 .jumbotron {
-  background: url("../img/jumbo.jpg")  center  ;
+  background: url("../img/steth.jpg") center  ;
 
   -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -32,7 +32,7 @@ body{
 
 .dark
 {
-    background: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url("../img/jumbo.jpg") center;
+    background: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url("../img/steth.jpg") center;
 
 }
 
